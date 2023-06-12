@@ -1,20 +1,12 @@
 import "./App.css";
 
 function Timeline() {
-  // GOTTA GET ALL THE BURRITOS HERE CSV?
-  const defaultProps = {
-    center: {
-      lat: 10.99835602,
-      lng: 77.01502627,
-    },
-    zoom: 11,
-  };
 
   return (
     <>
       <p className="subheader">Timeline</p>
       <p className="subheaderFootnote" >
-        *For a more succinct summary of my experience as a devloper, naviage the "Resume" button.
+        *For a more succinct summary of my experience as a devloper, navigate to the "Resume" button.
       </p>
       <br></br> <br></br> <br></br>
       <div class="timeline">

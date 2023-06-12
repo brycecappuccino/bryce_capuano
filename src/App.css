@@ -268,3 +268,36 @@ h5 {
 }
 
 /* TIMELINE STUFF ^^ */
+
+/* BOUNCE ANIMATION STUFF vv */
+
+
+.waviy {
+  text-align:center;
+  margin-top: 10%;
+  position: relative;
+  font-size: 60px;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  margin-right: 100px;
+  animation: waviy 35s infinite;
+  animation-delay: calc(5s * var(--i));
+  
+}
+@keyframes waviy {
+  0% {
+    transform: rotate(0);
+  }
+  4% {
+    transform: rotate(720deg);
+  }
+  8% {
+    transform: rotate(0);
+  }
+}
+
+
+
+/* BOUNCE ANIMATION STUFF ^^ */
