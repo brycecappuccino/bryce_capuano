@@ -1,0 +1,248 @@
+/* https://coolors.co/0fa3b1-d9e5d6-eddea4-f7a072-ff9b42 */
+body {background-color: #EDDEA4;}
+
+/* MAP STUFF vv */
+#map {
+  text-align:center;
+  margin-top: 30px;
+  height: 50%;
+  width: 50%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* MAP STUFF ^^ */
+
+
+
+/* NAVBAR STUFF vv */
+.nav-bar {
+  width:100%;
+  height:100px;
+  border-bottom: 1px solid rgba(255,255,255,.25);
+}
+
+/* TITLE STUFF vv */
+header { 
+  text-align:center;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 40px;
+  font-family: "Courier New", "Lucida Console", monospace;
+}
+
+.subheader { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Courier New", "Lucida Console", monospace;
+}
+
+.subheaderContent { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-family: "Courier New", "Lucida Console", monospace;
+}
+
+/* TITLE STUFF ^^ */
+
+.navigation {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.roundB {
+    background-color: #0FA3B1;
+    border-radius: 8px;
+    border: none;
+    color: #ecf3ea;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+  .roundB:hover {
+    background-color: #0b7e89;
+  }
+
+  .roundB:active {
+    background-color: #073e43;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.nav-divider {
+  width:100%;
+  height:10px;
+  border-bottom: 1px solid rgba(0, 0, 0);
+}
+
+/* NAVBAR STUFF ^^ */
+
+
+
+/* BURRITO STUFF vv */
+
+.mapContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.row {
+  display: table;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+}
+.column {
+  display: table-cell;
+}
+/* BURRITO STUFF ^^ */
+
+
+
+/* TIMELINE STUFF vv */
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: rgb(198, 198, 198);;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.timelineContainer {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.timelineContainer::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: rgb(198, 198, 198);
+  border: 4px solid #636363;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: -80px;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid rgb(198, 198, 198);
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent rgb(198, 198, 198);
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid rgb(198, 198, 198);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent rgb(198, 198, 198) transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.timelineContent {
+  padding: 20px 30px;
+  background-color: rgb(198, 198, 198);
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .timelineContainer {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .timelineContainer::before {
+    left: 60px;
+    border: medium solid rgb(198, 198, 198);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgb(198, 198, 198) transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+/* TIMELINE STUFF ^^ */
