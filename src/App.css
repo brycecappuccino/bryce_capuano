@@ -52,6 +52,16 @@ header {
   margin-right: 4%;
   font-family: "Courier New", "Lucida Console", monospace;
 }
+.subheaderFootnote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: -5px;
+  font-family: "Courier New", "Lucida Console", monospace;
+}
 
 /* TITLE STUFF ^^ */
 
@@ -244,5 +254,17 @@ header {
   .right {
     left: 0%;
   }
+  .left {
+    left: 0;
+  }
 }
+
+h2 {
+  font-size: 20px;
+  margin-bottom: -15px;
+}
+h5 {
+  font-weight: 500;
+}
+
 /* TIMELINE STUFF ^^ */
