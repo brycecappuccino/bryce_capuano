@@ -1,18 +1,28 @@
 import './App.css';
 import { useState, useEffect } from "react";
 import About from './About.js';
+import Timeline from './Timeline.js';
 import Burrito from './Burrito.js';
 
 function Homepage() {
     const [about, setAbout] = useState(true);
     const goToAbout = () => {
         setBurrito(false);
+        setTimeline(false);
         setAbout(true);
+      };
+
+      const [timeline, setTimeline] = useState(false);
+    const goToTimeline = () => {
+        setAbout(false);
+        setBurrito(false);
+        setTimeline(true);
       };
     
     const [burrito, setBurrito] = useState(false);
     const goToBurrito = () => {
         setAbout(false);
+        setTimeline(false);
         setBurrito(true);
       };
   
@@ -25,6 +35,7 @@ function Homepage() {
         <header>Hello, I'm Bryce</header>
         <div className="navigation">
             <button className="roundB" onClick={goToAbout}>About</button>
+            <button className="roundB" onClick={goToTimeline}>Timeline</button>
             <button className="roundB">Resume</button>
             <button className="roundB">Projects</button>
             <button className="roundB" onClick={goToBurrito}>Burrito Map</button>
@@ -37,6 +48,8 @@ function Homepage() {
         <About />
         ) : burrito ? (
         <Burrito />
+      ) : timeline ? (
+        <Timeline />
       ) : null}
     </>
   );
