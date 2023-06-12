@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+/* https://coolors.co/0fa3b1-d9e5d6-eddea4-f7a072-ff9b42 */
+body {background-color: #EDDEA4;}
+
+/* MAP STUFF vv */
+#map {
+  text-align:center;
+  margin-top: 30px;
+  height: 50%;
+  width: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* MAP STUFF ^^ */
+
+/* NAVBAR STUFF vv */
+.nav-bar {
+  width:100%;
+  height:100px;
+  border-bottom: 1px solid rgba(255,255,255,.25);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* TITLE STUFF vv */
+header { 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  text-align:center;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 40px;
+  font-family: "Courier New", "Lucida Console", monospace;
+}
+/* TITLE STUFF ^^ */
+
+.navigation {
   display: flex;
-  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.roundB {
+    background-color: #0FA3B1;
+    border-radius: 8px;
+    border: none;
+    color: #ecf3ea;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+  .roundB:hover {
+    background-color: #0b7e89;
+  }
+
+  .roundB:active {
+    background-color: #073e43;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.nav-divider {
+  width:100%;
+  height:10px;
+  border-bottom: 1px solid rgba(0, 0, 0);
+}
+
+/* NAVBAR STUFF ^^ */
+
+/* BURRITO STUFF vv */
+
+.mapContainer {
+  height: '50%';
+  width: '50%';
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
