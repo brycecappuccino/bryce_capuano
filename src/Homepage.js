@@ -23,7 +23,7 @@ function Homepage() {
           <button className="roundB" onClick={() => goToSection('timeline')}>Timeline</button>
           <button className="roundB" onClick={() => goToSection('resume')}>Resume</button>
           <button className="roundB" onClick={() => goToSection('projects')}>Projects</button>
-          <button className="roundB" onClick={() => goToSection('burrito')}>Burrito Map</button>
+          {/*<button className="roundB" onClick={() => goToSection('burrito')}>Burrito Map</button> */}
           <button className="roundB" onClick={() => goToSection('contact')}>Contact</button>
         </div>
       </div>
