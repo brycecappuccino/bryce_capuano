@@ -42,6 +42,14 @@ header {
   font-size: 30px;
   font-family: "Courier New", "Lucida Console", monospace;
 }
+.subheaderProject { 
+  align-items: left;
+  font-size: 30px;
+  font-style: bold;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-family: "Courier New", "Lucida Console", monospace;
+}
 
 .subheaderContent { 
   display: flex;
@@ -52,6 +60,16 @@ header {
   margin-right: 4%;
   font-family: "Courier New", "Lucida Console", monospace;
 }
+
+.subheaderContentProject{ 
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-size: 18px;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-family: "Courier New", "Lucida Console", monospace;}
+
 .subheaderFootnote {
   display: flex;
   flex-direction: column;
@@ -89,6 +107,26 @@ header {
 
   .roundB:active {
     background-color: #073e43;
+  }
+
+  .contactB {
+    background-color: #554303;
+    border-radius: 8px;
+    border: none;
+    color: #ecf3ea;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+  .contactB:hover {
+    background-color: #473803;
+  }
+
+  .contactB:active {
+    background-color: #2d2402;
   }
 
   .container {
@@ -269,7 +307,7 @@ h5 {
 
 /* TIMELINE STUFF ^^ */
 
-/* BOUNCE ANIMATION STUFF vv */
+/* ANIMATION STUFF vv */
 
 
 .waviy {
@@ -282,8 +320,8 @@ h5 {
   position: relative;
   display: inline-block;
   margin-right: 100px;
-  animation: waviy 35s infinite;
-  animation-delay: calc(5s * var(--i));
+  /* animation: waviy 32s infinite;
+  animation-delay: calc(4s * var(--i)); */
   
 }
 @keyframes waviy {
@@ -291,13 +329,20 @@ h5 {
     transform: rotate(0);
   }
   4% {
-    transform: rotate(720deg);
+    transform: rotate(360deg);
   }
   8% {
     transform: rotate(0);
   }
 }
 
+/* ANIMATION STUFF ^^ */
 
-
-/* BOUNCE ANIMATION STUFF ^^ */
+ul {
+  text-align: left;
+  list-style-type: circle;
+  font-size: 18px;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-family: "Courier New", "Lucida Console", monospace;
+}

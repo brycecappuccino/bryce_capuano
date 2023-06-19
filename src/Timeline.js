@@ -10,73 +10,33 @@ function Timeline() {
       </p>
       <br></br> <br></br> <br></br>
       <div class="timeline">
-      <div class="timelineContainer left">
-          <div class="timelineContent">
-            <h2>Aug 2016 - June 2017</h2>
-            <h5>Portola Valley, CA</h5>
-            <p> Priory Freshman year.
-            </p>
-          </div>
-        </div>
-      <div class="timelineContainer right">
-          <div class="timelineContent">
-            <h2>Aug 2017 - June 2018</h2>
-            <h5>Bend, OR</h5>
-            <p> Bend Sophmore year.
-            </p>
-          </div>
-        </div>
         <div class="timelineContainer left">
           <div class="timelineContent">
-            <h2>June - Aug 2018</h2>
-            <h5>Bend, OR</h5>
-            <p> Summer Camp Counselor Bend Science Station
+            <h2>Aug 2016 - May 2020</h2>
+            <h5>Portola Valley, CA → Bend, OR → Los Altos, CA</h5>
+            <p>I graduate from Los Altos High School in the midst of COVID-19.  LAHS was my third high school in four years.
+                Moving around a lot was challenging, but I'm grateful for the experience.
             </p>
           </div>
         </div>
         <div class="timelineContainer right">
-          <div class="timelineContent">
-            <h2>Aug 2018 - June 2019</h2>
-            <h5>Los Altos, CA</h5>
-            <p> High school number 3! I transfer to Los Altos High School for my Junior year.
-            </p>
-          </div>
-        </div>
-      <div class="timelineContainer left">
-          <div class="timelineContent">
-            <h2>June - Aug 2019</h2>
-            <h5>San Fransisco, CA</h5>
-            <p> Wikimedia Foundation Internship
-            </p>
-          </div>
-        </div>
-        <div class="timelineContainer right">
-          <div class="timelineContent">
-            <h2>Aug 2019 - May 2020</h2>
-            <h5>Los Altos, CA</h5>
-            <p>I graduate from Los Altos High School in the midst of COVID-19.  I enjoyed AP Computer Science, but I have no clue what I want to do.
-              I think I'll have it all figured out by the time I turn 20.
-            </p>
-          </div>
-        </div>
-        <div class="timelineContainer left">
           <div class="timelineContent">
             <h2>June - Aug 2020</h2>
             <h5>Fremont, CA</h5>
-            <p>I work my first "real" job as a full time uniform distibution employee at the Tesla Motors production plant
-              in Fremont, CA.  I marvel at all the cool robots.  I also decide to take a gap year and my friend does a really good
-              job pitching this "AmeriCorps" program.
+            <p>I work my as a full time uniform distibution employee at the Tesla Motors production plant.
+                I marvel at all the cool robots.  I also decide to take a gap year and my friend does a really good
+              job pitching a government sponsored volunteer program called AmeriCorps NCCC.
             </p>
           </div>
         </div>
-        <div class="timelineContainer right">
+        <div class="timelineContainer left">
           <div class="timelineContent">
             <h2>Nov 2020</h2>
             <h5>Denver, CO</h5>
             <p>My gap year with AmeriCorps NCCC begins...</p>
           </div>
         </div>
-        <div class="timelineContainer left">
+        <div class="timelineContainer right">
           <div class="timelineContent">
             <h2>Nov - Dec 2021</h2>
             <h5>Mayer, AZ</h5>
@@ -85,14 +45,14 @@ function Timeline() {
             </p>
           </div>
         </div>
-        <div class="timelineContainer right">
+        <div class="timelineContainer left">
           <div class="timelineContent">
             <h2>Jan - Mar 2021</h2>
             <h5>Columbia, MO</h5>
             <p>I build houses and distribute food in Columbia, MO</p>
           </div>
         </div>
-        <div class="timelineContainer left">
+        <div class="timelineContainer right">
           <div class="timelineContent">
             <h2>Mar - May 2021</h2>
             <h5>New York, NY</h5>
@@ -102,14 +62,14 @@ function Timeline() {
             </p>
           </div>
         </div>
-        <div class="timelineContainer right">
+        <div class="timelineContainer left">
           <div class="timelineContent">
             <h2>May - July 2021</h2>
             <h5>Drumright, OK</h5>
             <p>I do all sorts of cool stuff at an equine therapy ranch in Drumright, Ok</p>
           </div>
         </div>
-        <div class="timelineContainer left">
+        <div class="timelineContainer right">
           <div class="timelineContent">
             <h2>Aug 2021 - May 2022</h2>
             <h5>St. Louis, MO</h5>
@@ -119,7 +79,7 @@ function Timeline() {
             </p>
           </div>
         </div>
-        <div class="timelineContainer right">
+        <div class="timelineContainer left">
           <div class="timelineContent">
             <h2>June - Aug 2022</h2>
             <h5>Palo Alto, CA & Dallas, TX</h5>
@@ -128,7 +88,7 @@ function Timeline() {
             </p>
           </div>
         </div>
-        <div class="timelineContainer left">
+        <div class="timelineContainer right">
           <div class="timelineContent">
             <h2>Aug 2022 - May 2023</h2>
             <h5>St. Louis, MO</h5>
@@ -139,7 +99,7 @@ function Timeline() {
             </p>
           </div>
         </div>
-        <div class="timelineContainer right">
+        <div class="timelineContainer left">
           <div class="timelineContent">
             <h2>May 2023 - Present</h2>
             <h5>Louisville, KY</h5>

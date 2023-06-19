@@ -1,96 +1,40 @@
 import './App.css';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import About from './About.js';
 import Timeline from './Timeline.js';
+import Resume from './Resume.js';
 import Projects from './Projects.js';
 import Burrito from './Burrito.js';
+import Contact from './Contact.js';
 
 function Homepage() {
-    const [about, setAbout] = useState(true);
-    const goToAbout = () => {
-        setBurrito(false);
-        setTimeline(false);
-        setResume(false);
-        setAbout(true);
-      };
+  const [activeSection, setActiveSection] = useState('about');
 
-    const [timeline, setTimeline] = useState(false);
-    const goToTimeline = () => {
-        setAbout(false);
-        setBurrito(false);
-        setResume(false);
-        setProjects(false);
-        setContact(false);
-        setTimeline(true);
-      };
-
-      const [resume, setResume] = useState(false);
-      const goToResume = () => {
-          setAbout(false);
-          setBurrito(false);
-          setTimeline(false);
-          setProjects(false);
-          setContact(false);
-          setResume(true);
-        };
-
-      const [projects, setProjects] = useState(false);
-      const goToProjects = () => {
-          setAbout(false);
-          setBurrito(false);
-          setTimeline(false);
-          setResume(false);
-          setContact(false);
-          setProjects(true);
-        };
-    
-    const [burrito, setBurrito] = useState(false);
-    const goToBurrito = () => {
-        setAbout(false);
-        setTimeline(false);
-        setResume(false);
-        setProjects(false);
-        setContact(false);
-        setBurrito(true);
-      };
-
-    const [contact, setContact] = useState(false);
-    const goToContact = () => {
-        setAbout(false);
-        setTimeline(false);
-        setResume(false);
-        setProjects(false);
-        setBurrito(false);
-        setContact(true);
-      };
-  
-      
-
+  const goToSection = (section) => {
+    setActiveSection(section);
+  };
 
   return (
     <>
-        <div className="container">
+      <div className="container">
         <header>Hello, I'm Bryce</header>
         <div className="navigation">
-            <button className="roundB" onClick={goToAbout}>About</button>
-            <button className="roundB" onClick={goToTimeline}>Timeline</button>
-            <button className="roundB" onClick={goToResume}>Resume</button>
-            <button className="roundB" onClick={goToProjects}>Projects</button>
-            <button className="roundB" onClick={goToBurrito}>Burrito Map</button>
-            <button className="roundB" onClick={goToContact}>Contact</button>
+          <button className="roundB" onClick={() => goToSection('about')}>About</button>
+          <button className="roundB" onClick={() => goToSection('timeline')}>Timeline</button>
+          <button className="roundB" onClick={() => goToSection('resume')}>Resume</button>
+          <button className="roundB" onClick={() => goToSection('projects')}>Projects</button>
+          <button className="roundB" onClick={() => goToSection('burrito')}>Burrito Map</button>
+          <button className="roundB" onClick={() => goToSection('contact')}>Contact</button>
         </div>
-        </div>
-        <div className="nav-divider"/>
-        {/* CONTENT GOES BELOW. "HOMEPAGE" ALWAYS DISPLAYED */}
-      {about ? (
-        <About />
-        ) : timeline ? (
-          <Timeline />
-        ): projects ? (
-          <Projects />
-        ) : burrito ? (
-        <Burrito />
-      )  : null}
+      </div>
+      <div className="nav-divider" />
+      {/* CONTENT GOES BELOW. "HOMEPAGE" ALWAYS DISPLAYED */}
+      {activeSection === 'about' && <About />}
+      {activeSection === 'timeline' && <Timeline />}
+      {activeSection === 'resume' && <Resume />}
+      {activeSection === 'projects' && <Projects />}
+      {activeSection === 'burrito' && <Burrito />}
+      {activeSection === 'contact' && <Contact />}
     </>
   );
 }
