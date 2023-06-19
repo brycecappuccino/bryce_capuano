@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/bryce_capuano/static/css/main.0cfd37c2.css",
-    "main.js": "/bryce_capuano/static/js/main.41312095.js",
+    "main.css": "/bryce_capuano/static/css/main.a12bdb4b.css",
+    "main.js": "/bryce_capuano/static/js/main.ac60082c.js",
     "static/js/787.86004f85.chunk.js": "/bryce_capuano/static/js/787.86004f85.chunk.js",
+    "static/media/Resume_MAY_2023.pdf": "/bryce_capuano/static/media/Resume_MAY_2023.d2ab8f180ca18763e456.pdf",
     "index.html": "/bryce_capuano/index.html",
-    "main.0cfd37c2.css.map": "/bryce_capuano/static/css/main.0cfd37c2.css.map",
-    "main.41312095.js.map": "/bryce_capuano/static/js/main.41312095.js.map",
+    "main.a12bdb4b.css.map": "/bryce_capuano/static/css/main.a12bdb4b.css.map",
+    "main.ac60082c.js.map": "/bryce_capuano/static/js/main.ac60082c.js.map",
     "787.86004f85.chunk.js.map": "/bryce_capuano/static/js/787.86004f85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cfd37c2.css",
-    "static/js/main.41312095.js"
+    "static/css/main.a12bdb4b.css",
+    "static/js/main.ac60082c.js"
   ]
 }
