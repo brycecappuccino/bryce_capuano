@@ -3,7 +3,6 @@ import "./App.css";
 function About() {
   return (
     <>
-      <p className="subheader">About Me</p>
       <p className="subheaderContent">
         I'm an incoming Junior at Washington University in St. Louis majoring in
         Computer Science and minoring in Environmental Studies.
