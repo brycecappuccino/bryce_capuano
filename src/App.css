@@ -245,6 +245,20 @@ p {
   font-family: "Courier New", "Lucida Console", monospace;
 }
 
+.weatherwidget-io {
+  margin-top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 15%;
+  max-height: auto;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+
+
 /* MOBILE FRIENDLY!!! */
 @media screen and (max-width: 800px) {
   ul,

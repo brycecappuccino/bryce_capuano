@@ -1,4 +1,7 @@
 import "./App.css";
+import React, { useEffect } from 'react';
+import Antarctica from './Antarctica';
+
 
 function Contact() {
   return (
@@ -16,6 +19,8 @@ function Contact() {
             <p className="subheaderContent">
             650-391-3021
             </p>
+            <Antarctica />
+
     </div>    
   );
 }

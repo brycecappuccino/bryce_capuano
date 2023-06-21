@@ -52,7 +52,6 @@ function Resume() {
           </ul>
         </div>
       </p>
-      <br></br>
 
       <p className="subheaderSection">-- Experience --</p>
       <p className="subheaderContent">
