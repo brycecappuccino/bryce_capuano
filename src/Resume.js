@@ -29,27 +29,66 @@ function Resume() {
       <p className="subheaderSection">-- Education --</p>
       <p className="subheaderContent">
         <br></br>
-        Washington University in St. Louis | 3.81/4.0 GPA & 3.93/4.0 Major GPA
+        Washington University in St. Louis | 3.8/4.0 GPA
         <br></br>
         <br></br>
         Expected Graduation May 2025
         <br></br>
         <br></br>
         Bachelor of Science in Computer Science; Minor in Environmental Studies
-        <br></br><br></br>
-        Relevant Coursework: Data Structures and Algorithms; Introduction to
-        Biomedical Computing; Matrix Algebra; Intro to Computer Engineering; OOP
-        Software Dev. Lab; Mobile App Development; Intermediate Statistics;
-        Rapid Prototype Development; Intro to ML; Prog. Systems and Languages
+        <br></br>
         <br></br>
         Active member of Run Club, Climbing Club
+        <br></br>
+        <div className="container">
+          Relevant Coursework
+          <ul>
+            <li>Rapid Prototype Development</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Mobile App Development</li>
+            <li>Into to Biomedical Computing</li>
+            <li>Intro to Computer Engineering</li>
+            <li>Data Structures and Algorithms</li>
+            <li>OOP Software Dev. Lab</li>
+          </ul>
+        </div>
       </p>
       <br></br>
 
       <p className="subheaderSection">-- Experience --</p>
       <p className="subheaderContent">
         <br></br>
-        AmeriCorps NCCC Service Member (Multiple Locations) | Gap Year: 2020 -
+        SWE Intern @ Humana | Summer 2023
+        <br></br>
+        <br></br>
+        AmeriCorps NCCC is a federal service program that matches non-profits
+        with young adults who work and live onsite to provide critical services
+        to communities in need. Project highlights include managing line control
+        and securing patient appointments at the largest COVID-19 vaccine center
+        in Brooklyn, writing grants for a STEM education ranch in rural Arizona,
+        and constructing homes with Habitat for Humanity in a Missouri college
+        town. Experience proved to be formative, both personally (humility,
+        perseverance, compassion) and professionally (project management,
+        teamwork, developing budgets, writing and communicating with clarity).
+        <br></br>
+        <br></br>
+        <br></br>
+        Instructor @ ID Tech Camps | Summer 2022
+        <br></br>
+        <br></br>
+        AmeriCorps NCCC is a federal service program that matches non-profits
+        with young adults who work and live onsite to provide critical services
+        to communities in need. Project highlights include managing line control
+        and securing patient appointments at the largest COVID-19 vaccine center
+        in Brooklyn, writing grants for a STEM education ranch in rural Arizona,
+        and constructing homes with Habitat for Humanity in a Missouri college
+        town. Experience proved to be formative, both personally (humility,
+        perseverance, compassion) and professionally (project management,
+        teamwork, developing budgets, writing and communicating with clarity).
+        <br></br>
+        <br></br>
+        <br></br>
+        AmeriCorps NCCC Service Member | Gap Year: 2020 -
         2021
         <br></br>
         <br></br>
@@ -65,7 +104,7 @@ function Resume() {
         <br></br>
         <br></br>
         <br></br>
-        Tesla Motors Factory Associate (Fremont, CA) | Summer 2020
+        Tesla Motors Factory Associate | Summer 2020
         <br></br>
         <br></br>
         Served as a member of the team in charge of uniform management and

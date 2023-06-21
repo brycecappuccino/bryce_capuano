@@ -12,19 +12,19 @@ function About() {
       </p>
       <div class="waviy">
         <a href="https://github.com/cse330-spring-2023/creativeproject-cp-500926-487194" target="_blank" rel="noreferrer">
-          <span style={{ "--i": 1 }}>🧑‍💻</span>
+          <span>🧑‍💻</span>
         </a>
         
         <a href="https://www.strava.com/activities/7694662720" target="_blank" rel="noreferrer">
-          <span style={{ "--i": 2 }}>🌲</span>
+          <span>🌲</span>
         </a>
 
         <a href="https://losaltostaqueria.com" target="_blank" rel="noreferrer">
-          <span style={{ "--i": 4 }}>🌯</span>
+          <span>🌯</span>
         </a>
 
         <a href="https://www.goodreads.com/book/show/25899336-when-breath-becomes-air" target="_blank" rel="noreferrer">
-          <span style={{ "--i": 7 }}>📖</span>
+          <span>📖</span>
         </a>
       </div>
     </>

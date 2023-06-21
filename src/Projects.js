@@ -1,4 +1,6 @@
 import "./App.css";
+import NoseDive_UI from "./NoseDive_UI.png";
+import MusiBattle_UI from "./MusiBattle_UI.png";
 
 function Projects() {
   return (
@@ -14,6 +16,8 @@ function Projects() {
             Overall rankings page lets everyone know which music is best.
             <br></br><br></br>
             </p>
+            <div className="containerImage">
+                <div>
             <p> Technologies used:</p>
             <ul>
                 <li> React.js </li>
@@ -23,17 +27,28 @@ function Projects() {
                 <li> Node.js </li>
                 <li> MySql </li>
             </ul>
+            </div>
+            <img className="projectImage" src={MusiBattle_UI} alt="NoseDive UI"/>
+            </div>
+
             <p className="subheader">NoseDive</p>
             <p className="subheaderContent">
             IOS mobile game developed with three other students.  Full stack application utilizing Google's Firebase for backend.  Involved an algorithm for
             generating a winding path that the player would "fall" down while avoiding obstacles.  Players stats were saved and a global leaderboard was kept updated.
+            As can be seen below, the UI left something to be desired.  But it worked well, and we all thought it was pretty funny!
             <br></br><br></br>
             </p>
-            <p> Technologies used:</p>
-            <ul>
-                <li> Swift </li>
-                <li> Firebase </li>
-            </ul>
+            <div className="containerImage">
+            <div>
+                <p> Technologies used:</p>
+                <ul>
+                    <li> Swift </li>
+                    <li> UIKit </li>
+                    <li> Firebase </li>
+                </ul>
+            </div>
+            <img className="projectImage" src={NoseDive_UI} alt="NoseDive UI"/>
+            </div>
 
             <p className="subheader">This Website</p>
             <p className="subheaderContent">
@@ -48,7 +63,6 @@ function Projects() {
                 <li> HTML/Javascript/CSS </li>
                 <li> Github Pages </li>
             </ul>
-            <br></br>
     </div>    
   );
 }

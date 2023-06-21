@@ -1,22 +1,22 @@
-import './App.css';
-import { useState } from 'react';
-import About from './About.js';
-import Timeline from './Timeline.js';
-import Resume from './Resume.js';
-import Projects from './Projects.js';
-import Burrito from './Burrito.js';
-import Contact from './Contact.js';
+import "./App.css";
+import { useState } from "react";
+import About from "./About.js";
+import Timeline from "./Timeline.js";
+import Resume from "./Resume.js";
+import Projects from "./Projects.js";
+import Burrito from "./Burrito.js";
+import Contact from "./Contact.js";
 
 function Homepage() {
-  const [activeSection, setActiveSection] = useState('about');
+  const [activeSection, setActiveSection] = useState("about");
 
   const sections = {
-    about: 'About',
-    resume: 'Resume',
-    projects: 'Projects',
+    about: "About",
+    resume: "Resume",
+    projects: "Projects",
     // burrito: 'Burrito Map',
-    timeline: 'Timeline',
-    contact: 'Contact',
+    timeline: "Timeline",
+    contact: "Contact",
   };
 
   const goToSection = (section) => {
@@ -25,6 +25,7 @@ function Homepage() {
 
   return (
     <>
+    <div className="content">
       <div className="container">
         <header>Hello, I'm Bryce</header>
         <div className="title">{sections[activeSection]}</div>
@@ -32,7 +33,7 @@ function Homepage() {
           {Object.keys(sections).map((section) => (
             <button
               key={section}
-              className={`roundB ${activeSection === section ? 'active' : ''}`}
+              className={`roundB ${activeSection === section ? "active" : ""}`}
               onClick={() => goToSection(section)}
             >
               {sections[section]}
@@ -41,12 +42,16 @@ function Homepage() {
         </div>
       </div>
       <div className="nav-divider" />
-      {activeSection === 'about' && <About />}
-      {activeSection === 'timeline' && <Timeline />}
-      {activeSection === 'resume' && <Resume />}
-      {activeSection === 'projects' && <Projects />}
-      {activeSection === 'burrito' && <Burrito />}
-      {activeSection === 'contact' && <Contact />}
+      {activeSection === "about" && <About />}
+      {activeSection === "timeline" && <Timeline />}
+      {activeSection === "resume" && <Resume />}
+      {activeSection === "projects" && <Projects />}
+      {activeSection === "burrito" && <Burrito />}
+      {activeSection === "contact" && <Contact />}
+    </div>
+      <footer class="footer">
+          
+    </footer>
     </>
   );
 }
