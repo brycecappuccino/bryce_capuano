@@ -12,10 +12,10 @@ function Homepage() {
 
   const sections = {
     about: "About",
-    resume: "Resume",
     projects: "Projects",
     // burrito: 'Burrito Map',
     timeline: "Timeline",
+    resume: "Resume",
     contact: "Contact",
   };
 

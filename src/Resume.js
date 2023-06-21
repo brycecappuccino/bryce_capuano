@@ -48,7 +48,6 @@ function Resume() {
             <li>Mobile App Development</li>
             <li>Into to Biomedical Computing</li>
             <li>Intro to Computer Engineering</li>
-            <li>Data Structures and Algorithms</li>
             <li>OOP Software Dev. Lab</li>
           </ul>
         </div>
@@ -88,8 +87,7 @@ function Resume() {
         <br></br>
         <br></br>
         <br></br>
-        AmeriCorps NCCC Service Member | Gap Year: 2020 -
-        2021
+        Service Member @ AmeriCorps NCCC | Gap Year: 2020 - 2021
         <br></br>
         <br></br>
         AmeriCorps NCCC is a federal service program that matches non-profits
@@ -116,8 +114,7 @@ function Resume() {
         <br></br>
         <br></br>
         <br></br>
-        Wikimedia (aka Wikipedia) Product Management Intern (San Francisco, CA)
-        | Summer 2019
+        Product Management Intern @ Wikipedia | Summer 2019
         <br></br>
         <br></br>
         Through research and customer interviews, delivered feature
