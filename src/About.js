@@ -5,20 +5,27 @@ function About() {
     <>
       <p className="subheaderContent">
         I'm an incoming Junior at Washington University in St. Louis majoring in
-        Computer Science and minoring in Environmental Studies.
-        I'm passionate about all things CS. I'm particularly interested in full stack
-        engineering, artificial intelligence, and data management.
-        Outside of Computer Science, I enjoy nature, running, running in nature,
-        burritos, lifting, bouldering, and reading.
+        Computer Science and minoring in Environmental Studies. I'm passionate
+        about all things CS. I'm particularly interested in full stack
+        engineering, artificial intelligence, and data management. Outside of
+        Computer Science, I enjoy running/hiking/climbing in nature, burritos, and reading.
       </p>
       <div class="waviy">
-        <span style={{ "--i": 1 }}>🧑‍💻</span>
-        <span style={{ "--i": 2 }}>🌲</span>
-        <span style={{ "--i": 3 }}>🏃</span>
-        <span style={{ "--i": 4 }}>🌯</span>
-        <span style={{ "--i": 5 }}>🏋️</span>
-        <span style={{ "--i": 6 }}>🧗</span>
-        <span style={{ "--i": 7 }}>📖</span>
+        <a href="https://github.com/cse330-spring-2023/creativeproject-cp-500926-487194" target="_blank" rel="noreferrer">
+          <span style={{ "--i": 1 }}>🧑‍💻</span>
+        </a>
+        
+        <a href="https://www.strava.com/activities/7694662720" target="_blank" rel="noreferrer">
+          <span style={{ "--i": 2 }}>🌲</span>
+        </a>
+
+        <a href="https://losaltostaqueria.com" target="_blank" rel="noreferrer">
+          <span style={{ "--i": 4 }}>🌯</span>
+        </a>
+
+        <a href="https://www.goodreads.com/book/show/25899336-when-breath-becomes-air" target="_blank" rel="noreferrer">
+          <span style={{ "--i": 7 }}>📖</span>
+        </a>
       </div>
     </>
   );

@@ -9,7 +9,7 @@ function Resume() {
         <a
           className="contactB"
           href={theResume}
-          download="Resume_MAY_2023.pdf"
+          download="Resume_06_21_23.pdf"
           target="_blank"
           rel="noreferrer"
         >
@@ -25,6 +25,26 @@ function Resume() {
         Other: Agile, Node.JS, AWS EC2, AJAX, Socket.IO, React.JS, Express.JS,
         JSON, MySql, Git, API’s
       </p>
+
+      <p className="subheaderSection">-- Education --</p>
+      <p className="subheaderContent">
+        <br></br>
+        Washington University in St. Louis | 3.81/4.0 GPA & 3.93/4.0 Major GPA
+        <br></br>
+        <br></br>
+        Expected Graduation May 2025
+        <br></br>
+        <br></br>
+        Bachelor of Science in Computer Science; Minor in Environmental Studies
+        <br></br><br></br>
+        Relevant Coursework: Data Structures and Algorithms; Introduction to
+        Biomedical Computing; Matrix Algebra; Intro to Computer Engineering; OOP
+        Software Dev. Lab; Mobile App Development; Intermediate Statistics;
+        Rapid Prototype Development; Intro to ML; Prog. Systems and Languages
+        <br></br>
+        Active member of Run Club, Climbing Club
+      </p>
+      <br></br>
 
       <p className="subheaderSection">-- Experience --</p>
       <p className="subheaderContent">
@@ -69,25 +89,6 @@ function Resume() {
         of free information access, especially in repressed geographies. Results
         of the survey were highly lauded by the Wikimedia team.
       </p>
-
-      <p className="subheaderSection">-- Education --</p>
-      <p className="subheaderContent">
-        <br></br>
-        Washington University in St. Louis | 3.81/4.0 GPA & 3.93/4.0 Major GPA
-        <br></br>
-        <br></br>
-        Expected Graduation May 2025
-        <br></br>
-        Bachelor of Science in Computer Science; Minor in Environmental Studies
-        <br></br>
-        Relevant Coursework: Data Structures and Algorithms; Introduction to
-        Biomedical Computing; Matrix Algebra; Intro to Computer Engineering; OOP
-        Software Dev. Lab; Mobile App Development; Intermediate Statistics;
-        Rapid Prototype Development; Intro to ML; Prog. Systems and Languages
-        <br></br>
-        Active member of Run Club, Climbing Club
-      </p>
-      <br></br>
     </>
   );
 }
