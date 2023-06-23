@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/bryce_capuano/static/css/main.2aaa6673.css",
-    "main.js": "/bryce_capuano/static/js/main.fe8e431c.js",
+    "main.css": "/bryce_capuano/static/css/main.71f6d053.css",
+    "main.js": "/bryce_capuano/static/js/main.e903107a.js",
     "static/js/787.86004f85.chunk.js": "/bryce_capuano/static/js/787.86004f85.chunk.js",
     "static/media/MusiBattle_UI.png": "/bryce_capuano/static/media/MusiBattle_UI.20122c4d1477938c09c0.png",
     "static/media/NoseDive_UI.png": "/bryce_capuano/static/media/NoseDive_UI.eeb760030d18e52a5e41.png",
     "static/media/Resume_06_21_23.pdf": "/bryce_capuano/static/media/Resume_06_21_23.26357e7bc4b9f1149dbd.pdf",
     "index.html": "/bryce_capuano/index.html",
-    "main.2aaa6673.css.map": "/bryce_capuano/static/css/main.2aaa6673.css.map",
-    "main.fe8e431c.js.map": "/bryce_capuano/static/js/main.fe8e431c.js.map",
+    "main.71f6d053.css.map": "/bryce_capuano/static/css/main.71f6d053.css.map",
+    "main.e903107a.js.map": "/bryce_capuano/static/js/main.e903107a.js.map",
     "787.86004f85.chunk.js.map": "/bryce_capuano/static/js/787.86004f85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2aaa6673.css",
-    "static/js/main.fe8e431c.js"
+    "static/css/main.71f6d053.css",
+    "static/js/main.e903107a.js"
   ]
 }
