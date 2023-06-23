@@ -13,7 +13,7 @@ function Resume() {
           target="_blank"
           rel="noreferrer"
         >
-          Download Resume
+          Download Resume PDF
         </a>
       </div>
 

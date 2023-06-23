@@ -28,6 +28,9 @@ function Homepage() {
     <div className="content">
       <div className="container">
         <header>Hello, I'm Bryce</header>
+        <div className="title-container">
+          
+        </div>
         <div className="title">{sections[activeSection]}</div>
         <div className="navigation">
           {Object.keys(sections).map((section) => (

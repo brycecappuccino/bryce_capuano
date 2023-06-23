@@ -1,5 +1,5 @@
 html, body {
-  background-color: #EDDEA4;
+  background-color: #e2e2e2;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ html, body {
 
 .footer {
   height: 50px;
-  background-color: #EDDEA4;
+  background-color: #e2e2e2;
   position: relative;
   transition: transform 0.3s ease;
 }
@@ -46,11 +46,27 @@ html, body {
 header,
 .title,
 .subheader,
+.subheaderContentAbout,
 .subheaderContent,
 .subheaderFootnote,
 .subheaderSection {
+  color: #2c2c2c;
   text-align: center;
-  font-family: "Courier New", "Lucida Console", monospace;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+.subheaderContentAbout {
+  font-size: 24px;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.subheaderContentAbout:hover {
+  transform: scale(1.1);
 }
 
 header {
@@ -73,11 +89,7 @@ header:hover {
   100% { background-color: #FFE4C4; }
 }
 
-.title {
-  margin-top: 20px;
-  margin-right: 30px;
-  font-size: 30px;
-}
+
 
 .subheader {
   display: flex;
@@ -114,7 +126,7 @@ header:hover {
 .contactB {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
-  background-color: #0FA3B1;
+  background-color: #000000;
   border-radius: 8px;
   border: none;
   color: #ecf3ea;
@@ -125,24 +137,11 @@ header:hover {
   margin: 4px 2px;
 }
 
-.roundB:hover {
-  background-color: #0b7e89;
-}
-
-.roundB:active {
-  background-color: #073e43;
-}
-
-.contactB {
-  background-color: #8e5611;
-}
+.roundB:hover,
 .contactB:hover {
-  background-color: #6a4309;
+  background-color: #313131;
 }
 
-.contactB:active {
-  background-color: #3c2502;
-}
 
 
 .active {
@@ -159,6 +158,19 @@ header:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.title-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin-top: 20px;
+  margin-right: 100px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .containerResume {
@@ -186,7 +198,7 @@ header:hover {
   margin-bottom: 20px;
   width: 100%;
   height: 10px;
-  border-bottom: 1px solid rgba(0, 0, 0);
+  border-bottom: 1px solid rgba(96, 96, 96, 0.9);
 }
 
 /* Burrito Styling */
@@ -195,6 +207,10 @@ header:hover {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+}
+
+a {
+  text-decoration: none;
 }
 
 .row {
@@ -211,15 +227,15 @@ header:hover {
 /* Animation Styling */
 .waviy {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 1%;
   position: relative;
-  font-size: 60px;
+  font-size: 30px;
 }
 
 .waviy span {
   position: relative;
   display: inline-block;
-  margin-right: 100px;
+  margin: 1%;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -270,10 +286,6 @@ p {
     font-size: 32px;
   }
 
-  .title {
-    font-size: 24px;
-    margin-right: 10px;
-  }
 
   .subheader,
   .subheaderContent,
@@ -295,8 +307,10 @@ p {
 
   .subheaderContent,
   .subheaderFootnote,
+  .subheaderContentAbout
   .subheaderSection {
     margin-left: 0;
     margin-right: 0;
   }
+
 }
