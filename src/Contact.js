@@ -19,7 +19,6 @@ function Contact() {
             <p className="subheaderContent">
             650-391-3021
             </p>
-            <Antarctica />
 
     </div>    
   );
