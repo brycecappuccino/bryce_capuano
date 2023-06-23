@@ -41,11 +41,6 @@
   z-index: 1;
 }
 
-/* Place the container to the left */
-.left {
-  left: 0;
-}
-
 /* Place the container to the right */
 .right {
   left: 50%;
@@ -88,12 +83,21 @@
 .timelineContent {
   padding: 20px 30px;
   background-color: rgb(198, 198, 198);
-  position: relative;
   border-radius: 6px;
 }
 
+h2 {
+  font-size: 20px;
+  margin-bottom: -15px;
+}
+
+h5 {
+  margin-left: 5%;
+  font-weight: 500;
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   /* Place the timeline to the left */
   .timeline::after {
     left: 31px;
@@ -120,6 +124,20 @@
     left: 15px;
   }
 
+  h2 {
+    font-size: 14px;
+  }
+  
+  h5 {
+    text-align: left;
+    margin-left: 5%;
+    font-size: 13px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
   /* Make all right containers behave like the left ones */
   .right {
     left: 0;
@@ -129,14 +147,4 @@
   }
 }
 
-h2 {
-  font-size: 20px;
-  margin-bottom: -15px;
-}
-
-h5 {
-  font-weight: 500;
-}
-
-/* TIMELINE STUFF ^^ */
 

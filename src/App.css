@@ -163,7 +163,7 @@ header:hover {
 
 .title {
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 80px;
   font-size: 30px;
   text-align: center;
 }
@@ -283,6 +283,18 @@ p {
   font-size: 18px;
 }
 
+@media screen and (max-width: 1000px) {
+  header {
+    width: 100%;
+    margin: 0;
+    font-size: 32px;
+  }
+  .title {
+    display: none;
+  }
+}
+
+
 /* MOBILE FRIENDLY!!! */
 @media screen and (max-width: 800px) {
   html,
@@ -312,6 +324,11 @@ p {
   .subheaderSection,
   .roundB,
   .contactB {
+    font-size: 16px;
+  }
+
+  ul,
+  .subheaderContentResume {
     font-size: 12px;
   }
 
