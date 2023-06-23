@@ -62,13 +62,14 @@ function Projects() {
         <br></br>
         <br></br>
       </p>
+      <div className="containerImage">
       <p> Technologies used:</p>
       <ul>
         <li> React.js </li>
         <li> HTML/Javascript/CSS </li>
         <li> Github Pages </li>
       </ul>
-
+      <div>
       <p className="subheader">Navy SEAL/Cookie Eating/Pizza Eating Game (2013)</p>
       <p className="subheaderContent">
         <a href="https://www.khanacademy.org/computer-programming/navy-sealcookie-eating-game/2370549969" target="_blank" rel="noreferrer">
