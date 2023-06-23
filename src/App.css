@@ -347,6 +347,10 @@ p {
     align-items: flex-start;
   }
 
+  .projectImage {
+    display: none;
+  }
+
   .subheaderContent,
   .subheaderFootnote,
   .subheaderContentAbout,
