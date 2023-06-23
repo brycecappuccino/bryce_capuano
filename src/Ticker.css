@@ -28,17 +28,16 @@
   }
   .ticker-wrap {
     margin-top: -20px;
-    width: 100%;
     overflow: hidden;
-    height: 2rem;
-    background-color: rgba(96, 96, 96, 0.9);
+    height: 1.2rem;
+    background-color: #585858;
     padding-left: 100%;
     box-sizing: content-box;
   }
   .ticker-wrap .ticker {
     display: inline-block;
-    height: 2rem;
-    line-height: 2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
     white-space: nowrap;
     padding-right: 100%;
     box-sizing: content-box;
@@ -55,7 +54,7 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
     padding: 0 4rem;
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: white;
   }
   

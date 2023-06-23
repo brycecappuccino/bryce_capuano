@@ -69,8 +69,9 @@ function About() {
 
       <div className="subheaderContentAbout">
         I'm an incoming Junior at Washington University in St. Louis majoring in
-        Computer Science and minoring in Environmental Studies. I'm passionate
-        about all things CS. I'm particularly interested in full stack
+        Computer Science and minoring in Environmental Studies.  I've been interested in
+        CS ever since I created my first real masterpiece at age 11 (link at bottom of projects page).
+        I'm particularly interested in full stack
         engineering, artificial intelligence, and data management. Outside of
         Computer Science, I enjoy running/hiking/climbing in nature, burritos,
         and reading.
