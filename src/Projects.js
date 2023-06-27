@@ -27,7 +27,7 @@ function Projects() {
             <li> MySql </li>
           </ul>
         </div>
-        <img className="projectImage" src={MusiBattle_UI} alt="NoseDive UI" />
+        <img className="projectImage" src={MusiBattle_UI} alt="NoseDive UI" loading="lazy"/>
       </div>
 
       <p className="subheader">NoseDive</p>
@@ -51,7 +51,7 @@ function Projects() {
             <li> Firebase </li>
           </ul>
         </div>
-        <img className="projectImage" src={NoseDive_UI} alt="NoseDive UI" />
+        <img className="projectImage" src={NoseDive_UI} alt="NoseDive UI" loading="lazy"/>
       </div>
 
       <p className="subheader">This Website</p>

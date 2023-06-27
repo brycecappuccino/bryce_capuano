@@ -88,7 +88,7 @@ function About() {
           . I've been interested in CS ever since I created my first Khan
           Academy masterpiece at age 11
           <a
-            href="https://www.strava.com/activities/7694662720"
+            href="https://www.khanacademy.org/computer-programming/navy-sealcookie-eating-game/2370549969"
             target="_blank"
             rel="noreferrer"
           >
