@@ -24,9 +24,9 @@ function Homepage() {
   };
 
   return (
-    <>
+    <>    
       <div className="content">
-        <div className="container">
+        <div className="container theheader">
           <header>Hello, I'm Bryce</header>
           <div className="title">{sections[activeSection]}</div>
           <div className="navigation">
