@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/bryce_capuano/static/css/main.2ace30d3.css",
-    "main.js": "/bryce_capuano/static/js/main.698c438f.js",
+    "main.css": "/bryce_capuano/static/css/main.18c66e34.css",
+    "main.js": "/bryce_capuano/static/js/main.d0b19e71.js",
     "static/js/787.86004f85.chunk.js": "/bryce_capuano/static/js/787.86004f85.chunk.js",
+    "static/media/yosemite.png": "/bryce_capuano/static/media/yosemite.8ef77fbaa61caa362ced.png",
     "static/media/MusiBattle_UI.png": "/bryce_capuano/static/media/MusiBattle_UI.20122c4d1477938c09c0.png",
     "static/media/NoseDive_UI.png": "/bryce_capuano/static/media/NoseDive_UI.eeb760030d18e52a5e41.png",
     "static/media/Resume_06_21_23.pdf": "/bryce_capuano/static/media/Resume_06_21_23.26357e7bc4b9f1149dbd.pdf",
     "index.html": "/bryce_capuano/index.html",
-    "main.2ace30d3.css.map": "/bryce_capuano/static/css/main.2ace30d3.css.map",
-    "main.698c438f.js.map": "/bryce_capuano/static/js/main.698c438f.js.map",
+    "main.18c66e34.css.map": "/bryce_capuano/static/css/main.18c66e34.css.map",
+    "main.d0b19e71.js.map": "/bryce_capuano/static/js/main.d0b19e71.js.map",
     "787.86004f85.chunk.js.map": "/bryce_capuano/static/js/787.86004f85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ace30d3.css",
-    "static/js/main.698c438f.js"
+    "static/css/main.18c66e34.css",
+    "static/js/main.d0b19e71.js"
   ]
 }
