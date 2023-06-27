@@ -51,7 +51,6 @@ function Homepage() {
         {activeSection === "burrito" && <Burrito />}
         {activeSection === "contact" && <Contact />}
       </div>
-      <footer class="footer"></footer>
     </>
   );
 }

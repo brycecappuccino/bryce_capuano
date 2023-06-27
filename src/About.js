@@ -1,5 +1,6 @@
 import "./App.css";
 import "./Ticker.css";
+import Yosemite from "./yosemite.png";
 
 function About() {
   return (
@@ -59,51 +60,61 @@ function About() {
           <div class="ti">Jupyter Notebooks</div>
           <div class="ti">WordPress</div>
           <div class="ti">Eclipse</div>
-          <div class="ti">***See Resume For Current Technical Skills List***</div>
-
-
-
-
+          <div class="ti">
+            ***See Resume For Current Technical Skills List***
+          </div>
         </div>
       </div>
 
-      <div className="subheaderContentAbout">
-        I'm an incoming Junior at Washington University in St. Louis majoring in
-        Computer Science and minoring in Environmental Studies.  I've been interested in
-        CS ever since I created my first real masterpiece at age 11 (link at bottom of projects page).
-        I'm particularly interested in full stack
-        engineering, artificial intelligence, and data management. Outside of
-        Computer Science, I enjoy running/hiking/climbing in nature, burritos,
-        and reading.
-      </div>
-      <div class="waviy">
-        <a
-          href="https://github.com/cse330-spring-2023/creativeproject-cp-500926-487194"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span>🧑‍💻</span>
-        </a>
-
-        <a
-          href="https://www.strava.com/activities/7694662720"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span>🌲</span>
-        </a>
-
-        <a href="https://losaltostaqueria.com" target="_blank" rel="noreferrer">
-          <span>🌯</span>
-        </a>
-
-        <a
-          href="https://www.goodreads.com/book/show/25899336-when-breath-becomes-air"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span>📖</span>
-        </a>
+      <div className="subheaderWrapper">
+        <div className="subheaderContentAbout">
+          I'm a soon-to-be Junior at Washington University in St. Louis,
+          pursuing a major in Computer Science{" "}
+          <a
+            href="https://github.com/cse330-spring-2023/creativeproject-cp-500926-487194"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>🧑‍💻</span>
+          </a>{" "}
+          with a minor in Environmental Studies{" "}
+          <a
+            href="https://www.strava.com/activities/7694662720"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>🌲</span>
+          </a>
+          . I've been interested in CS ever since I created my first Khan
+          Academy masterpiece at age 11
+          <a
+            href="https://www.strava.com/activities/7694662720"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span> 🎮</span>
+          </a>
+          .  I'm
+          particularly interested in full stack engineering, artificial
+          intelligence, and data management. Outside of Computer Science, I
+          enjoy running/hiking/climbing in nature, burritos{" "}
+          <a
+            href="https://goo.gl/maps/kTQMga6CgDy3DS3G8"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>🌯</span>
+          </a>
+          , and reading{" "}
+          <a
+            href="https://www.goodreads.com/book/show/25899336-when-breath-becomes-air"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>📖</span>
+          </a>
+          .
+        </div>
       </div>
     </>
   );

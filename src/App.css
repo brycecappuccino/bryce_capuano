@@ -57,17 +57,28 @@ header,
 }
 
 .subheaderContentAbout {
+  background-color: #bdd3fa;
+  padding: 50px;
   font-size: 24px;
-  margin-top: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
-  justify-content: center;
 }
 
+.subheaderWrapper {
+  background-color: #75a0f7;
+  padding: 20px;
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 header {
+  background-color: #bdd3fa;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 40px;
 }
 
@@ -142,16 +153,16 @@ header:hover {
 
 .roundB:hover,
 .contactB:hover {
-  background-color: #313131;
+  background-color: #55678b;
 }
 
 .active {
-  background-color: #585858;
+  background-color: #5a7cbf;
 }
 
 .active:hover,
 .active:active {
-  background-color: #585858;
+  background-color: #5a7cbf;
 }
 
 /* Container Styling */
@@ -250,12 +261,8 @@ a {
   position: relative;
   display: inline-block;
   margin: 1%;
-  transition: transform 0.3s ease-in-out;
 }
 
-.waviy span:hover {
-  transform: scale(1.2);
-}
 
 /* PDF Display Styling */
 .pdfDisplay {
@@ -357,5 +364,8 @@ p {
   .subheaderSection {
     margin-left: 0;
     margin-right: 0;
+  }
+  .subheaderContentAbout {
+    padding: 10px;
   }
 }

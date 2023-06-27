@@ -2,6 +2,9 @@ import "./App.css";
 import { Document, Page } from "react-pdf";
 import theResume from "./Resume_06_21_23.pdf";
 
+
+
+
 function Resume() {
   return (
     <>
@@ -121,6 +124,8 @@ function Resume() {
           the importance of free information access, especially in repressed
           geographies. Results of the survey were highly lauded by the Wikimedia
           team.
+          <br></br>
+          <br></br>
         </p>
       </div>
     </>
