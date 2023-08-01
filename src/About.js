@@ -46,7 +46,6 @@ function About() {
           <div class="ti">JSON</div>
           <div class="ti">UIKit</div>
           <div class="ti">TensorFlow</div>
-          <div class="ti">OpenCV</div>
           <div class="ti">Arduino</div>
           <div class="ti">Assembly 😠</div>
           <div class="ti">Visual Studio Code</div>
@@ -69,51 +68,11 @@ function About() {
       <div className="subheaderWrapper">
         <div className="subheaderContentAbout">
           I'm a soon-to-be Junior at Washington University in St. Louis,
-          pursuing a major in Computer Science{" "}
-          <a
-            href="https://github.com/cse330-spring-2023/creativeproject-cp-500926-487194"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>🧑‍💻</span>
-          </a>{" "}
-          with a minor in Environmental Studies{" "}
-          <a
-            href="https://www.strava.com/activities/7694662720"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>🌲</span>
-          </a>
-          . I've been interested in CS ever since I created my first Khan
-          Academy masterpiece at age 11
-          <a
-            href="https://www.khanacademy.org/computer-programming/navy-sealcookie-eating-game/2370549969"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span> 🎮</span>
-          </a>
-          .  I'm
+          pursuing a major in Computer Science. I've been interested in CS ever
+          since I created my first Khan Academy masterpiece at age 11. I'm
           particularly interested in full stack engineering, artificial
           intelligence, and data management. Outside of Computer Science, I
-          enjoy running/hiking/climbing in nature, burritos{" "}
-          <a
-            href="https://goo.gl/maps/kTQMga6CgDy3DS3G8"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>🌯</span>
-          </a>
-          , and reading{" "}
-          <a
-            href="https://www.goodreads.com/book/show/25899336-when-breath-becomes-air"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>📖</span>
-          </a>
-          .
+          enjoy running/hiking/climbing in nature, burritos, and reading.
         </div>
       </div>
     </>
