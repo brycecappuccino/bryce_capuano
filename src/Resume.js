@@ -2,9 +2,6 @@ import "./App.css";
 import { Document, Page } from "react-pdf";
 import theResume from "./Resume_06_21_23.pdf";
 
-
-
-
 function Resume() {
   return (
     <>
@@ -27,61 +24,49 @@ function Resume() {
           Other: Agile, Node.JS, AWS EC2, AJAX, Socket.IO, React.JS, Express.JS,
           JSON, MySql, Git, API’s
         </p>
-        
+
         <p className="subheaderSection">-- Education --</p>
         <p className="subheaderContentResume">
           <ul>
-              <li>Washington University in St. Louis | 3.8/4.0 GPA</li>
-              <li>Expected Graduation May 2025</li>
-              <li>Bachelor of Science in Computer Science</li>
-              <li>Minor in Environmental Studies</li>
-              <li>Active member of Run Club, Climbing Club</li>
-              <li>OOP Software Dev. Lab</li>
-              <li>Relevant Coursework:</li>
-              <ul>
+            <li>Washington University in St. Louis | 3.8/4.0 GPA</li>
+            <li>Expected Graduation May 2025</li>
+            <li>Bachelor of Science in Computer Science</li>
+            <li>Minor in Environmental Studies</li>
+            <li>Active member of Run Club, Climbing Club</li>
+            <li>OOP Software Dev. Lab</li>
+            <li>Relevant Coursework:</li>
+            <ul>
               <li>Rapid Prototype Development</li>
               <li>Data Structures and Algorithms</li>
               <li>Mobile App Development</li>
               <li>Into to Biomedical Computing</li>
               <li>Intro to Computer Engineering</li>
               <li>OOP Software Dev. Lab</li>
-              </ul>
             </ul>
-            </p>
-            <br></br>
-            <br></br>
+          </ul>
+        </p>
+        <br></br>
+        <br></br>
 
         <p className="subheaderSection">-- Experience --</p>
         <p className="subheaderContentResume">
           SWE Intern @ Humana | Summer 2023
           <br></br>
           <br></br>
-          AmeriCorps NCCC is a federal service program that matches non-profits
-          with young adults who work and live onsite to provide critical
-          services to communities in need. Project highlights include managing
-          line control and securing patient appointments at the largest COVID-19
-          vaccine center in Brooklyn, writing grants for a STEM education ranch
-          in rural Arizona, and constructing homes with Habitat for Humanity in
-          a Missouri college town. Experience proved to be formative, both
-          personally (humility, perseverance, compassion) and professionally
-          (project management, teamwork, developing budgets, writing and
-          communicating with clarity).
+          Member of CRM Data Management team investigating how to streamline ETL
+          process. Facilitated changes that enable business leaders to make more
+          informed decisions via custom Salesforce dashboards. Heavy emphasis on
+          SAFe Agile methodologies.
           <br></br>
           <br></br>
           <br></br>
           Instructor @ ID Tech Camps | Summer 2022
           <br></br>
           <br></br>
-          AmeriCorps NCCC is a federal service program that matches non-profits
-          with young adults who work and live onsite to provide critical
-          services to communities in need. Project highlights include managing
-          line control and securing patient appointments at the largest COVID-19
-          vaccine center in Brooklyn, writing grants for a STEM education ranch
-          in rural Arizona, and constructing homes with Habitat for Humanity in
-          a Missouri college town. Experience proved to be formative, both
-          personally (humility, perseverance, compassion) and professionally
-          (project management, teamwork, developing budgets, writing and
-          communicating with clarity).
+          Taught 10 - 17 year olds programming fundamentals through
+          project-based lessons; projects included creating Java Minecraft mods
+          with CurseForge, making games with Pygame, and designing interactive
+          animations in Scratch
           <br></br>
           <br></br>
           <br></br>
