@@ -67,10 +67,11 @@ function About() {
 
       <div className="subheaderWrapper">
         <div className="subheaderContentAbout">
-          I'm a soon-to-be Junior at Washington University in St. Louis,
-          pursuing a major in Computer Science. I've been interested in CS ever
-          since I created my first Khan Academy masterpiece at age 11. I'm
-          particularly interested in full stack engineering, artificial
+          I'm a Junior at Washington University in St. Louis,
+          pursuing a major in Computer Science, minor in Environmental Studies,
+          and possible second minor in Mathematics.
+          I've been interested in CS ever since I created my first Khan Academy masterpiece at age 11.
+          I'm particularly interested in full stack engineering, artificial
           intelligence, and data management. Outside of Computer Science, I
           enjoy running/hiking/climbing in nature, burritos, and reading.
         </div>
