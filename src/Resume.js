@@ -9,7 +9,7 @@ function Resume() {
         <a
           className="contactB"
           href={theResume}
-          download="Resume_06_21_23.pdf"
+          download="BryceCapuanoResume.pdf"
           target="_blank"
           rel="noreferrer"
         >
