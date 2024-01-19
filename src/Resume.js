@@ -1,6 +1,6 @@
 import "./App.css";
 import { Document, Page } from "react-pdf";
-import theResume from "./Resume_06_21_23.pdf";
+import theResume from "./BryceCapuanoResume.pdf";
 
 function Resume() {
   return (
