@@ -4,9 +4,6 @@ function Timeline() {
 
   return (
     <>
-      <p className="subheaderFootnote" >
-        *For a more succinct summary of my experience as a developer, navigate to the "Resume" button.
-      </p>
       <br></br> <br></br> <br></br>
       <div class="timeline">
         <div class="timelineContainer left">

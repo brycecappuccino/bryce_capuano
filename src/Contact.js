@@ -7,16 +7,16 @@ function Contact() {
   return (
     
     <div>
-            <p className="subheaderContent">
+            <p className="contact">
             <a class="contactB" href="https://www.linkedin.com/in/bryce-capuano/" target="_blank" rel="noreferrer">Linkedin</a>
             </p>
-            <p className="subheaderContent">
+            <p className="contact">
             Bryce Capuano
             </p>
-            <p className="subheaderContent">
+            <p className="contact">
             bryce.capuano@gmail.com
             </p>
-            <p className="subheaderContent">
+            <p className="contact">
             650-391-3021
             </p>
 

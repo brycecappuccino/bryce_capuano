@@ -13,9 +13,9 @@ function Homepage() {
   const sections = {
     about: "About",
     projects: "Projects",
-    // burrito: 'Burrito Map',
-    timeline: "Timeline",
     resume: "Resume",
+    // timeline: "Timeline",
+    burrito: 'Burritos',
     contact: "Contact",
   };
 
@@ -27,8 +27,7 @@ function Homepage() {
     <>    
       <div className="content">
         <div className="container theheader">
-          <header>Hello, I'm Bryce</header>
-          <div className="title">{sections[activeSection]}</div>
+          <header><div className="title">{sections[activeSection]}</div></header>
           <div className="navigation">
             {Object.keys(sections).map((section) => (
               <button
