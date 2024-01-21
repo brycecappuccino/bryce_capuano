@@ -50,6 +50,7 @@ body {
   font-size: 24px;
   margin-left: 4%;
   margin-right: 4%;
+  margin-bottom: 1%;
 }
 
 
@@ -74,7 +75,7 @@ header,
 
 .subheaderWrapper {
   padding: 10px;
-  margin: 10%;
+  margin: 8%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,10 +95,6 @@ header {
 .theheader {
   margin-top: 10px;
   padding-bottom: 50px;
-}
-
-header:hover {
-  animation: calm 2s infinite;
 }
 
 @keyframes calm {
@@ -216,13 +213,14 @@ header:hover {
 }
 
 .subheaderContentResume {
-  margin-top: 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   text-align: left;
-  justify-content: left;
-  align-items: left;
-  min-width: 50%;
+  align-items: flex-start;
+  width: 80%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .containerImage {
@@ -232,7 +230,8 @@ header:hover {
 }
 
 .projectImage {
-  max-width: 15%;
+  max-width: 25%;
+  max-height: 30vh;
   margin-left: 50px;
   height: auto;
   margin-bottom: 20px;
@@ -312,6 +311,13 @@ p {
   margin-bottom: 5px;
 }
 
+.listBurritos:before {
+  color: #cbcbcb;
+  content: '\1F32F';
+  margin-left: -20px;
+  margin-right: 10px;
+} 
+
 .burritoList {
   font-size: 20px;
   color: #cbcbcb;
@@ -321,16 +327,21 @@ p {
   color: #9e9e9e;
 }
 
-@media screen and (max-width: 1000px) {
-  header {
-    width: 100%;
-    margin: 0;
-    font-size: 32px;
-  }
-  .title {
-    display: none;
-  }
+.subheaderContentBurrito {
+  text-align: center;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 12px;
 }
+
+
 
 
 /* MOBILE FRIENDLY!!! */
@@ -342,7 +353,6 @@ p {
 
   header {
     width: 100%;
-    margin: 0;
     font-size: 26px;
   }
   .title {
@@ -358,30 +368,30 @@ p {
 
   .subheader,
   .subheaderContent,
-  .subheaderContentAbout,
   .subheaderFootnote,
   .subheaderSection,
   .roundB {
     font-size: 16px;
   }
 
+.subheaderContentAbout {
+  font-size: 30px;
+}
+
   ul,
   .subheaderContentResume {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .roundB {
     padding: 8px;
     margin: 1px;
   }
-
+  
   .navigation {
-    flex-direction: column;
-    margin-right: 0;
-  }
-
-  .subheader {
-    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
   }
 
   .projectImage {
@@ -392,8 +402,8 @@ p {
   .subheaderFootnote,
   .subheaderContentAbout,
   .subheaderSection {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .subheaderContentAbout {
     padding: 10px;

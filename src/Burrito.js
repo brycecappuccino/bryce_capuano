@@ -71,7 +71,7 @@ function BurritoRanking() {
       <div className="containerResume">
         <p className="subheader"> I Really Like Burritos...</p>
         <p className="subheaderFootnote">(Rating is out of 10)</p>
-        <div className="subheaderContentResume">
+        <div className="subheaderContentBurrito">
           <ul>
             {burritos.map(burrito => (
               <li key={burrito.name} className="listBurritos">
@@ -81,7 +81,7 @@ function BurritoRanking() {
                   rel="noreferrer"
                   className="burritoList"
                 >
-                  {burrito.name}, {burrito.location}:  {burrito.rating}
+                  {burrito.name}, {burrito.location}:  <strong>{burrito.rating}</strong>
                 </a>
               </li>
             ))}

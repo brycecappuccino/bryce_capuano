@@ -15,7 +15,7 @@ function Homepage() {
     projects: "Projects",
     resume: "Resume",
     // timeline: "Timeline",
-    burrito: 'Burritos',
+    burrito: "Burritos",
     contact: "Contact",
   };
 
@@ -24,10 +24,12 @@ function Homepage() {
   };
 
   return (
-    <>    
+    <>
       <div className="content">
         <div className="container theheader">
-          <header><div className="title">{sections[activeSection]}</div></header>
+          <header>
+            <div className="title">{sections[activeSection]}</div>
+          </header>
           <div className="navigation">
             {Object.keys(sections).map((section) => (
               <button

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./App.css";
+import "./Waves.css";
 import "./SlideAnimations.css"
 
 function About() {
@@ -27,6 +28,11 @@ function About() {
           <div className={animation}>{currentPhrase}</div>
         </div>
       </div>
+      <section>
+        <div className="air air1"></div>
+        <div className="air air2"></div>
+        <div className="air air3"></div>
+      </section>
     </>
   );
 }
