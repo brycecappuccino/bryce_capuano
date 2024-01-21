@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.19b26171.css",
-    "main.js": "./static/js/main.13c189bf.js",
+    "main.css": "./static/css/main.15f8c560.css",
+    "main.js": "./static/js/main.6e312240.js",
     "static/js/787.86004f85.chunk.js": "./static/js/787.86004f85.chunk.js",
     "static/media/MusiBattle_UI.png": "./static/media/MusiBattle_UI.20122c4d1477938c09c0.png",
     "static/media/NoseDive_UI.png": "./static/media/NoseDive_UI.eeb760030d18e52a5e41.png",
+    "static/media/TrailGuru_UI.png": "./static/media/TrailGuru_UI.5f746b951067c2bdfd58.png",
     "static/media/BryceCapuanoResume.pdf": "./static/media/BryceCapuanoResume.07e31363d21988fabf66.pdf",
     "index.html": "./index.html",
-    "main.19b26171.css.map": "./static/css/main.19b26171.css.map",
-    "main.13c189bf.js.map": "./static/js/main.13c189bf.js.map",
+    "main.15f8c560.css.map": "./static/css/main.15f8c560.css.map",
+    "main.6e312240.js.map": "./static/js/main.6e312240.js.map",
     "787.86004f85.chunk.js.map": "./static/js/787.86004f85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19b26171.css",
-    "static/js/main.13c189bf.js"
+    "static/css/main.15f8c560.css",
+    "static/js/main.6e312240.js"
   ]
 }
